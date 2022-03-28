@@ -1,0 +1,45 @@
+{% extends "base.html" %}
+{% block title %}team void | junkybot{% endblock %}
+
+{% block content %}
+
+<header>
+    <a href="/">
+        <h1 id="h1-header"><b><u>JunkyBot</u><sup>(team void)</sup></b></h1>
+    </a>
+</header>
+<!-- header  -->
+<h2 id="explain">An automated chatbot for enquiry about the products.</h2>
+<!-- for-the-chatbox-style-spelling-correction  -->
+<div class="box"></div>
+<div class="boxed">
+    <div>
+        <br>
+        <div id="chatbox">
+            <p class="botText">
+                <span id=>Enter : <br>"help" to get help, <br>"product < search query>" to get top five product with the
+                        given keyword, <br>"detail < search query>" to get the detail of the particular product,
+                            <br>"price < search query>" to get
+                                the price of the product.
+                </span>
+            </p>
+        </div>
+        <br><br><br>
+        <div id="userInput">
+            <input id="textInput" type="text" name="msg" placeholder="Message" />
+        </div>
+    </div>
+    <script src="../static/js/script.js"></script>
+</div>
+<br><br><br><br><br>
+<hr>
+<footer>
+    <div class="center-text">
+        <h1>Made with <i class="fa-solid fa-heart"></i> by <a href="https://www.linkedin.com/in/mayankshrivastava17/"
+                target="_blank"><b>Mayank</a></b>, <a href="https://www.linkedin.com/in/nikhil-1807/"
+                target="_blank"><b>Nikhil</b></a>, <a href="https://www.linkedin.com/in/tapadyuti-sagar-986970233/"
+                target="_blank"><b>Sagar</b></a>.</h1>
+    </div>
+</footer>
+
+{% endblock %}

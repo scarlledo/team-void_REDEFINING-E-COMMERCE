@@ -1,0 +1,120 @@
+body {
+    /* background-color: #8ee4af; */
+    background-color: rgba(142, 228, 175, 0.8575805322128851);
+    margin: 0;
+    margin: 0;
+    padding: 0;
+    font-family: 'Times New Roman', Times, serif, Georgia;
+}
+
+header {
+    background-color: #edf5e1;
+    padding-left: 12px;
+    margin: 0;
+}
+
+#h1-header {
+    margin: 0;
+    font-weight: bold;
+    font-size: 8vh;
+}
+
+.boxed {
+    margin-left: auto;
+    margin-right: auto;
+    width: 78%;
+    margin-top: 60px;
+    height: 50%;
+    background-color: rgba(189, 235, 206, 0.858);;
+    border: 1px solid rgb(255, 255, 255);
+}
+
+.box {
+    border: 2px solid black;
+}
+
+#explain {
+    margin: 2.75vh;
+    padding: 2.75vh;
+    font-size: 3.60vh;
+}
+
+#txtbox {
+    font-size: 16pt;
+    width: 1250px;
+    height: 42px;
+    padding: 15px 0;
+}
+
+#chatbot {
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+    margin-top: 60px;
+}
+
+#userInput {
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+    margin-top: 60px;
+}
+
+#textInput {
+    width: 90%;
+    border: none;
+    border-bottom: 3px solid black;
+    font-family: monospace;
+    font-size: 17px;
+}
+
+.userText {
+    color: white;
+    font-family: monospace;
+    font-size: 17px;
+    text-align: right;
+    line-height: 30px;
+}
+
+.userText span {
+    background-color: #808080;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.botText {
+    color: white;
+    font-family: monospace;
+    font-size: 17px;
+    text-align: left;
+    line-height: 30px;
+}
+
+.botText span {
+    background-color: #4169e1;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+#tidbit {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 300px;
+}
+
+hr {
+    border: 1px dashed rgb(0, 0, 0);
+}
+
+.center-text {
+    text-align: center;
+}
+
+a {
+    color: black;
+}
+
+sup {
+    font-size: 21px;
+}
